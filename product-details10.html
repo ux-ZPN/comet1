@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Product Details 1
+  </title>
+  <link rel="stylesheet" href="product-details1.css" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo img">
+      <img src="https://i.postimg.cc/t1vz67S8/comet-white-logo.png" alt="Logo" class="logo-img" /> <!-- Use same image and classname as in home.html -->
+    </div>
+    <ul class="nav-links">
+      <li><a href="home.html" class="active">Home</a></li>
+      <li><a href="product.html">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <input type="text" placeholder="Search..." class="search-bar" />
+      
+    </div>
+  </nav>
+
+  <main>
+    <section class="product-main">
+      <div class="product-images">
+        <img src="https://www.wearcomet.com/cdn/shop/files/Lateral-view.jpg?v=1704174067&width=600" alt="Loose Fit Hoodie Main" class="main-image" id="mainImage" onclick="openModal(this.src)">
+        <div class="gallery">
+          <img src="https://www.wearcomet.com/cdn/shop/files/zoom-1.jpg?v=1704174067&width=600" alt="Loose Fit Hoodie Thumb 1" onclick="openModal(this.src)">
+          <img src="https://www.wearcomet.com/cdn/shop/files/Salmonmin.jpg?v=1705643889&width=600" alt="Loose Fit Hoodie Thumb 2" onclick="openModal(this.src)">
+          <img src="https://www.wearcomet.com/cdn/shop/files/back-3-4_1fe54571-5b06-4e94-ac08-244fcb6586c1.jpg?v=1705643889&width=600" alt="Loose Fit Hoodie Thumb 3" onclick="openModal(this.src)">
+          <img src="https://www.wearcomet.com/cdn/shop/files/extra-shot.jpg?v=1705643889&width=600" alt="Loose Fit Hoodie Thumb 4" onclick="openModal(this.src)">
+        </div>
+      </div>
+      <div class="product-info">
+        <h1>Aeon SALMON
+        </h1><!--name product-->
+        <p class="price">₹ 4299</p>
+        <div class="sizes">
+          <span class="label">Size:</span>
+          <button class="size-btn selected">7</button>
+          <button class="size-btn">8</button>
+          <button class="size-btn">9</button>
+          <button class="size-btn">10</button>
+        </div>
+        <form class="add-actions">
+          <input type="number" value="1" min="1" class="qty-input"/>
+          <button type="submit" class="add-cart-btn">Add to Cart</button>
+          <button type="button" class="buy-now-btn">Buy Now</button>
+        </form>
+        <details class="product-section" open>
+          <summary>Description & Fit</summary>
+          <p>AA medley of hues as fresh as the catch of the day. SALMON makes waves in a style that is subtle yet has the right degree of oomph. The dainty rose, paired boldly with edgy contrasts, makes for a splash of style that seamlessly streams your daily dose of street swagger.
+
+            The colorblock palette, paired with sharp aesthetics, lends it a flair compared to none. The upper exterior in nylon backed with mesh underlays helps you keep cool, comfy, and nimble at the same time. Every stride is sweat-free once you slide your feet into the weightless embrace of Aeons.
+            
+            - All-day comfort
+            - Featherlight weightlessness
+            - Breathable with cutting-edge tech
+            
+            Aeons are not only about cushy comfort but just as much about durability. Meant for all kinds of terrain in and out of the city, the Aeon outsole is a Waffle Revolution. The unique waffle construction draws inspiration from superior runners and trainers and absorbs all kinds of external pressure to give you the utmost comfort. So step into them for a snug fit and stay on your toes tirelessly all day, every day.
+            
+            Materials:
+            Upper: Synthetic Leather, Synthetic Suede with Microfiber Underlay, Nylon
+            Footbed: Synthetic Leather
+            Sole: 100% Rubber, EVA
+            
+            Your shoe contains Suede. Please refrain from exposing them to water.</p><!--product details-->
+        </details>
+        <details class="product-section">
+          <summary>Shipping</summary>
+          <p>Fast, free shipping worldwide. Estimated delivery 4–7 days.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Ratings & Reviews -->
+    <section class="product-ratings">
+      <div class="ratings-main">
+        <div class="rating-score">
+          <span class="score">4.5</span>
+          <span class="stars">★★★★★</span>
+        </div>
+        <div class="rating-count">(320 Total Reviews)</div>
+      </div>
+      <div class="review-list">
+        <div class="review">
+          <div class="review-header">
+            <span class="review-author">Alex Martin</span>
+            <span class="review-date">12/12/2024</span>
+            <span class="review-stars">★★★★★</span>
+          </div>
+          <div class="review-body">
+            Love the fit and quality — very comfortable for daily use!
+          </div>
+        </div>
+        <!-- More reviews can be added similarly -->
+      </div>
+    </section>
+
+    <!-- You Might Also Like -->
+    <section class="recomendation">
+      <div class="section-header">
+    <h2>Featured Sneakers</h2>
+  </div>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="https://www.wearcomet.com/cdn/shop/files/lateral-min_9f36678c-606b-48b2-9666-f9bc443acf5f.jpg?v=1722936229&width=990" alt="Sneaker 1">
+          <h3>X Lows BLACKCURRANT</h3>
+          <p>₹4,299</p>
+        </div>
+        <div class="product-card">
+          <img src="https://www.wearcomet.com/cdn/shop/files/madagascar-min.jpg?v=1736160716&width=990" alt="Sneaker 2">
+          <h3>X Lows MADAGASCAR</h3>
+          <p>₹4,199</p>
+        </div>
+        <div class="product-card">
+          <img src="https://www.wearcomet.com/cdn/shop/files/lateral_1_-min_8413eac7-38c7-4ab3-b983-d28f1b33a45c.jpg?v=1737452927&width=990" alt="Sneaker 3">
+          <h3>X Lows PUMPKIN</h3>
+          <p>₹4,999</p>
+        </div>
+              <div class="product-card">
+          <img src="https://www.wearcomet.com/cdn/shop/files/tiramisu_lateral-min.jpg?v=1722317878&width=990" alt="Sneaker 3">
+          <h3>X Lows TIRAMISU</h3>
+          <p>₹4,999</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <!-- Footer -->
+ <section class="contact-banner">
+  <div class="contact-grid">
+    <div>
+      <h3>Reach Us</h3>
+      <p>📞 +91 98765 43210</p>
+      <p>✉ support@cometshoes.com</p>
+    </div>
+
+    <div>
+      <h3>Follow Us</h3>
+      <p>
+        <a href="#">Instagram</a><br />
+        <a href="#">Facebook</a><br />
+        <a href="#">Twitter</a>
+      </p>
+    </div>
+
+    <div>
+      <h3>Quick Links</h3>
+      <p>
+        <a href="home.html">Home</a><br />
+        <a href="products.html">Products</a><br />
+        <a href="about.html">About</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 COMET. All rights reserved.</p>
+</footer>
+
+<div id="imgModal" class="modal" onclick="closeModal()">
+  <span class="modal-close">&times;</span>
+  <img class="modal-content" id="imgModalSrc" />
+</div>
+  
+  <script>
+  // Open modal and display clicked image
+  function openModal(src) {
+    document.getElementById("imgModalSrc").src = src;
+    document.getElementById("imgModal").style.display = "flex";
+  }
+  // Close modal window
+  function closeModal() {
+    document.getElementById("imgModal").style.display = "none";
+  }
+  document.addEventListener("DOMContentLoaded", function() {
+    // Close modal when clicking X
+    var modalClose = document.querySelector('.modal-close');
+    if (modalClose) {
+      modalClose.onclick = function(event) {
+        event.stopPropagation();
+        closeModal();
+      };
+    }
+    // Close modal when clicking outside image
+    document.getElementById("imgModal").onclick = function(event) {
+      if(event.target === this) closeModal();
+    };
+
+    // Size selection highlighting
+    document.querySelectorAll('.size-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        document.querySelectorAll('.size-btn').forEach(b => b.classList.remove('selected'));
+        this.classList.add('selected');
+      });
+    });
+
+    // Add to Cart alert
+    var addCartBtn = document.querySelector('.add-cart-btn');
+    if(addCartBtn) {
+      addCartBtn.onclick = function(e) {
+        e.preventDefault();
+        alert("Product added to cart!");
+      };
+    }
+
+    // Buy Now alert with optional redirect logic
+    var buyNowBtn = document.querySelector('.buy-now-btn');
+    if(buyNowBtn) {
+      buyNowBtn.onclick = function() {
+        alert("Proceeding to checkout...");
+        // window.location.href = "checkout.html"; // optional redirect
+      };
+    }
+  });
+</script>
+</body>
+</html>
