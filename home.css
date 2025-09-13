@@ -36,7 +36,7 @@ body {
 .hero {
   height: 65vh;
   width: 100;
-  background: url("https://i.postimg.cc/FF2P20XJ/Whats-App-Image-2025-07-17-at-15-54-56-8df893fc.jpg") no-repeat center center/cover;
+  background: url("https://ibb.co/YS133fr") no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -193,5 +193,6 @@ text-decoration: none;}
 .contact-grid p a { color: #ccc; text-decoration: none; transition: color 0.3s ease; }
 
 .contact-grid p a:hover { color: #fff; }
+
 
 /* Footer */ footer { background-color: #000; color: #aaa; text-align: center; padding: 1rem; font-size: 0.9rem; margin-top: 0rem; }
